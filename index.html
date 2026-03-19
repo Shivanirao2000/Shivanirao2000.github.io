@@ -417,6 +417,14 @@
 
     <div class="project-card reveal">
       <div class="project-num">07</div>
+      <div class="project-title">Case-Aware Named Entity Recognition with Bidirectional LSTM and GloVe Embeddings</div>
+      <div class="project-desc">Built a deep learning NER system from scratch in PyTorch achieving <strong>87.6% F1</strong> on the CoNLL-2003 benchmark. Designed a custom case-sensitivity mechanism that concatenates pre-trained GloVe word vectors with a learned 10-dimensional capitalization embedding across 6 orthographic categories — compensating for GloVe's inherent case-insensitivity and improving recall by 16% over the baseline BiLSTM model.</div>
+      <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">PyTorch</span><span class="tech-tag">NLP</span><span class="tech-tag">BiLSTM</span><span class="tech-tag">GloVe</span><span class="tech-tag">CoNLL-2003</span><span class="tech-tag">Sequence Labeling</span></div>
+      <div class="project-links"><a href="https://github.com/Shivanirao2000/Case-Aware-NER-BiLSTM" target="_blank" class="project-link"><svg class="social-icon" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>View on GitHub</a></div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">08</div>
       <div class="project-title">High-Performance GPU Computing using CUDA on Google Cloud</div>
       <div class="project-desc">Implemented and benchmarked GPU-accelerated matrix multiplication and image convolution kernels in CUDA on an NVIDIA Tesla T4 (Google Cloud Compute Engine), achieving 10–50x throughput improvements over CPU baselines. Optimized kernels using shared memory tiling and thread-level parallelism; built a shared CUDA dynamic library (.so) with Python bindings via ctypes — directly applicable to custom PyTorch extensions.</div>
       <div class="project-tech"><span class="tech-tag">CUDA</span><span class="tech-tag">C</span><span class="tech-tag">Python</span><span class="tech-tag">ctypes</span><span class="tech-tag">GCP</span><span class="tech-tag">NVIDIA Tesla T4</span><span class="tech-tag">cuBLAS</span></div>
@@ -424,7 +432,7 @@
     </div>
 
     <div class="project-card reveal reveal-delay-1">
-      <div class="project-num">08</div>
+      <div class="project-num">09</div>
       <div class="project-title">Intelligent Maze Solver: Q-Learning and Deep Q-Network Agents</div>
       <div class="project-desc">Developed and compared tabular Q-Learning and DQN agents in PyTorch to solve variable-size MxN maze environments with dynamic obstacles. Implemented epsilon-greedy exploration with decay, experience replay, and target network freezing — standard DQN stabilization techniques — achieving 100% success across 100 test episodes. Quantitatively benchmarked Q-Table vs DQN via reward curves and convergence speed.</div>
       <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">PyTorch</span><span class="tech-tag">Reinforcement Learning</span><span class="tech-tag">DQN</span><span class="tech-tag">Q-Learning</span><span class="tech-tag">NumPy</span></div>
@@ -432,7 +440,7 @@
     </div>
 
     <div class="project-card reveal reveal-delay-2">
-      <div class="project-num">09</div>
+      <div class="project-num">10</div>
       <div class="project-title">Bon Voyage | Full-Stack Trip Planning Application</div>
       <div class="project-desc">Cross-platform mobile application built in Flutter with a Node.js and Express backend. Implemented user preference management, trip data persistence, and a REST API for real-time route computation. Integrated a Travelling Salesman Algorithm to generate optimized multi-destination routes; architected using MVC pattern for scalable, maintainable code.</div>
       <div class="project-tech"><span class="tech-tag">Flutter</span><span class="tech-tag">Dart</span><span class="tech-tag">Node.js</span><span class="tech-tag">Express.js</span><span class="tech-tag">REST API</span><span class="tech-tag">MVC</span><span class="tech-tag">TSP Algorithm</span></div>
@@ -440,7 +448,7 @@
     </div>
 
     <div class="project-card reveal">
-      <div class="project-num">10</div>
+      <div class="project-num">11</div>
       <div class="project-title">VR Rehabilitation Game for Cerebral Palsy | Unity + Google SDK</div>
       <div class="project-desc">Unity-based virtual reality rehabilitation game for cerebral palsy patients using Google VR SDK and BNO055 sensors to link real-world physical movements with the virtual environment. Applied a Linear Regression model to correlate sensor coordinates with VR coordinates, achieving 90% accuracy in VR positioning prediction and reducing movement errors by 80%.</div>
       <div class="project-tech"><span class="tech-tag">Unity</span><span class="tech-tag">C#</span><span class="tech-tag">Google VR SDK</span><span class="tech-tag">BNO055 Sensors</span><span class="tech-tag">Linear Regression</span><span class="tech-tag">XR</span></div>
@@ -448,7 +456,7 @@
     </div>
 
     <div class="project-card reveal reveal-delay-1">
-      <div class="project-num">11</div>
+      <div class="project-num">12</div>
       <div class="project-title">Adaptive Cruise Control using CARLA Autonomous Driving Simulator</div>
       <div class="project-desc">Adaptive Cruise Control (ACC) system built in the CARLA autonomous driving simulator using Python and closed-loop feedback algorithms to maintain safe following distance under dynamic traffic scenarios. Integrated Signal Temporal Logic (STL) monitoring via RT-AMT to formally verify safety constraints; deployed containerized simulations with Docker and GPU acceleration for reproducible CI/CD-style experiments.</div>
       <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">CARLA</span><span class="tech-tag">Docker</span><span class="tech-tag">GPU</span><span class="tech-tag">STL</span><span class="tech-tag">Control Systems</span><span class="tech-tag">CI/CD</span></div>
@@ -456,7 +464,7 @@
     </div>
 
     <div class="project-card reveal reveal-delay-2">
-      <div class="project-num">12</div>
+      <div class="project-num">13</div>
       <div class="project-title">Cloud-Based Mobile IoT Network using AWS and ThingsBoard</div>
       <div class="project-desc">Real-time IoT data ingestion and visualization platform deployed on AWS EC2, integrating OwnTracks mobile telemetry with ThingsBoard via MQTT and HTTP protocols. Configured a PostgreSQL time-series backend for telemetry storage; built an interactive live dashboard with geospatial OpenStreetMap widgets translating raw device data into operational insight.</div>
       <div class="project-tech"><span class="tech-tag">AWS EC2</span><span class="tech-tag">ThingsBoard</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">MQTT</span><span class="tech-tag">HTTP</span><span class="tech-tag">IoT</span><span class="tech-tag">Linux</span><span class="tech-tag">Bash</span></div>
